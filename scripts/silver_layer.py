@@ -14,12 +14,12 @@ from pyspark.sql.types import *
 # MAGIC ### Data Access using app
 
 # COMMAND ----------
-
+# you can use my secrets as i have added some other letters and words in the secrets
 spark.conf.set("fs.azure.account.auth.type.awstoragedatalakekha.dfs.core.windows.net", "OAuth")
 spark.conf.set("fs.azure.account.oauth.provider.type.awstoragedatalakekha.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
-spark.conf.set("fs.azure.account.oauth2.client.id.awstoragedatalakekha.dfs.core.windows.net", "cd542115-c1cb-4afc-9c20-e000abb83a49")
-spark.conf.set("fs.azure.account.oauth2.client.secret.awstoragedatalakekha.dfs.core.windows.net", "4xd8Q~CsByqQEqP5lPR3Ozdpi6pQXQvBa3tzDduW")
-spark.conf.set("fs.azure.account.oauth2.client.endpoint.awstoragedatalakekha.dfs.core.windows.net", "https://login.microsoftonline.com/6b2a8d53-1a1e-4b5f-82f4-fd99402eb10a/oauth2/token")
+spark.conf.set("fs.azure.account.oauth2.client.id.awstoragedatalakekha.dfs.core.windows.net", "cd5422446345634634563652545115-c1cb-4afc-9c20-e000abb83a49")
+spark.conf.set("fs.azure.account.oauth2.client.secret.awstoragedatalakekha.dfs.core.windows.net", "4xd8Q~CsB6653456654165435654yqQEqP5lPR3O4523542345234zdpi6pQXQvBa3tzDduW")
+spark.conf.set("fs.azure.account.oauth2.client.endpoint.awstoragedatalakekha.dfs.core.windows.net", "https://login.microsoftonline.com/6b2a8d53-1a1e-4b5f-82f43543453453gdsngie4jyi4 -fd9940245ut3475t3467furgb4eb10a/oauth2/token")
 
 # COMMAND ----------
 
